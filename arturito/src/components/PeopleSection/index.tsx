@@ -32,7 +32,7 @@ const Planets = () => {
   const { data, error } = useSWR('/people', swGet);
 
   if (error) {
-    return <div className="px-2">Oh oh!</div>;
+    return <div className="px-2">Oh oh gg!</div>;
   }
   if (!data) {
     return <div className="px-2">Loading...</div>;
