@@ -1,4 +1,3 @@
-import { log } from 'console';
 import useSWR from 'swr';
 
 import { swGet } from '../../utils/fetcher';
